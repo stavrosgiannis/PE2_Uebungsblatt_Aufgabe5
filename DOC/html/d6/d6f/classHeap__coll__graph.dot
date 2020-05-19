@@ -1,0 +1,8 @@
+digraph "Heap&lt; T &gt;"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Heap\< T \>\n|- _val\l- _size\l- _next\l|+ Heap()\l+ Heap()\l+ ~Heap()\l+ insert()\l+ extractMin()\l+ toString()\l- heapify()\l- minimum()\l- inc()\l- dec()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Heap-Klasse."];
+}
