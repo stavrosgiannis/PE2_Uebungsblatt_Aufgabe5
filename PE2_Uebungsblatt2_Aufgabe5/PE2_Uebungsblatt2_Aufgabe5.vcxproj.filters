@@ -21,6 +21,9 @@
     <ClCompile Include="exception.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="heap.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="exception.h">

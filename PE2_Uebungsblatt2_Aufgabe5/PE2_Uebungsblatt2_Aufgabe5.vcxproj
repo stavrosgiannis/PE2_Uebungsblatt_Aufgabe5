@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="exception.cpp" />
+    <ClCompile Include="heap.cpp" />
     <ClCompile Include="PE2_Uebungsblatt2_Aufgabe5.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -7,7 +7,7 @@
  */
 
 #include <iostream>
-#include "heap.h"
+#include "heap.cpp"
 #include <ctime>
 
 using namespace std;
