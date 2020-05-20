@@ -1,11 +1,10 @@
-#pragma once
 /**
- * @file Exception.h
+ * @file exception.h
  * @brief Exception-Handler
  */
 
-#ifndef PE2_HEAP_CPP_EXCEPTION_H
-#define PE2_HEAP_CPP_EXCEPTION_H
+#ifndef PE2_EXCEPTION_H
+#define PE2_EXCEPTION_H
 
 #include <string>
 
@@ -18,4 +17,4 @@ public:
 	std::string toString();
 };
 
-#endif //PE2_HEAP_CPP_EXCEPTION_H
+#endif //PE2_EXCEPTION_H

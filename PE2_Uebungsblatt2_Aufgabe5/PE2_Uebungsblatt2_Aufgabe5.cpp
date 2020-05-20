@@ -7,23 +7,23 @@
  */
 
 #include <iostream>
-#include "heap.cpp"
+#include "heap.h"
 #include <ctime>
 
 using namespace std;
 
 int main() {
-	srand(time(NULL));
-
 	//Test 1
 	Heap<int> h;
 
 	for (int i = 0; i < 20; i++) {
-		h.insert(rand() % 100);
+		int rndnumber = rand() % 100;
+		h.insert(rndnumber);
+		cout << "inserted: " << rndnumber << endl;
 	}
 
 	for (int i = 0; i < 20; i++) {
-		h.extractMin();
+		cout << "extractMin: " << h.extractMin() << endl;
 	}
 
 	cout << "Test 1 finished" << endl << endl;
@@ -32,13 +32,15 @@ int main() {
 	int* values = new int[20];
 
 	for (int i = 0; i < 20; i++) {
-		values[i] = rand() % 100;
+		int rndnumber = rand() % 100;
+		values[i] = rndnumber;
+		cout << "inserted[" << i << "]: " << rndnumber << endl;
 	}
 
 	Heap<int> l(values, 20);
 
 	for (int i = 0; i < 20; i++) {
-		l.extractMin();
+		cout << "extractMin: " << l.extractMin() << endl;
 	}
 
 	cout << "Test 2 finished" << endl << endl;

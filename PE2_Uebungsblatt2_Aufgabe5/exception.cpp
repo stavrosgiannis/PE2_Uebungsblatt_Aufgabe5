@@ -1,6 +1,7 @@
-//
-// Created by joshg on 19.05.2020.
-//
+/**
+ * @file exception.cpp
+ * @brief Exception-Handler
+ */
 
 #include "Exception.h"
 
